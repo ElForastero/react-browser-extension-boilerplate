@@ -2,7 +2,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ElForastero/preact-browser-extension-boilerplate"
   },
   "scripts": {
     "build": "yarn webpack -c webpack.config.js",
