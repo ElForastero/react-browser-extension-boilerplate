@@ -1,0 +1,9 @@
+@import 'assets/css/palette.css';
+
+.container {
+  font-size: 18px;
+  color: var(--my-ext-color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

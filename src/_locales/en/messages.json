@@ -1,0 +1,17 @@
+{
+  "greeting": {
+    "message": "Hello, World!"
+  },
+  "appName": {
+    "message": "Chromium extension boilerplate",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appShortName": {
+    "message": "Ext",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name. "
+  },
+  "appDesc": {
+    "message": "This app does something awesome.",
+    "description": "The description of the application, displayed in the web store."
+  }
+}
