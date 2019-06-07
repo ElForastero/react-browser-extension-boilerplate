@@ -1,10 +1,10 @@
 ## 🎉 React (Preact) Browser Extension Boilerplate
 
-- Preact X (or React if you prefer it)
-- Shadow DOM for injected content
-- CSS Modules
-- PostCSS (preset-env and custom-properties)
-- Ready-to-go setup with internationalization
+- **Preact X** (or React if you prefer it)
+- **Shadow DOM** for injected content
+- **CSS Modules**
+- **PostCSS** (preset-env and custom-properties)
+- Ready-to-go setup with **internationalization**
 
 This project aims to provide a simple boilerplate for writing browser extensions for the most popular browsers, such as Chrome, Firefox, and Opera.
 
