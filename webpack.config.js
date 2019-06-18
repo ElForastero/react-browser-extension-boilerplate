@@ -7,7 +7,8 @@ module.exports = {
   entry: {
     options: './src/options.js',
     popup: './src/popup.js',
-    background: './src/background.js',
+    content: './src/content.js',
+    background: './src/background.js'
   },
   output: {
     filename: '[name].js',
@@ -60,10 +61,6 @@ module.exports = {
     new HTMLPlugin({
       chunks: ['popup'],
       filename: 'popup.html',
-    }),
-    new HTMLPlugin({
-      chunks: ['background'],
-      filename: 'background.html',
     }),
     new MiniCSSPlugin({
       filename: 'assets/css/[name].css',

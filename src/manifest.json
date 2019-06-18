@@ -5,10 +5,11 @@
   "short_name": "__MSG_appShortName__",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html"
+  },
   "background": {
-    "persistent": false,
-    "page": "background.html"
+    "scripts": ["background.js"]
   },
   "browser_action": {
     "default_popup": "popup.html"
@@ -17,7 +18,7 @@
     {
       "all_frames": false,
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["background.js"],
+      "js": ["content.js"],
       "css": ["assets/css/palette.css"]
     }
   ],
