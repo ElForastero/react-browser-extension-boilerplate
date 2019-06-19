@@ -20,3 +20,4 @@ Content and styles which are injected directly to the page, are isolated inside 
 - [Content Security Policy (CSP)](https://developer.chrome.com/extensions/contentSecurityPolicy)
 - [Chrome i18n](https://developer.chrome.com/extensions/i18n)
 - [Porting a Google Chrome extension to Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Porting_a_Google_Chrome_extension)
+- [Firefox add-ons examples](https://github.com/mdn/webextensions-examples)
