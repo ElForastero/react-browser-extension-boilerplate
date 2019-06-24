@@ -4,6 +4,7 @@
 - **Shadow DOM** for injected content
 - **CSS Modules**
 - **PostCSS** (preset-env and custom-properties)
+- **Auto reloading**
 - Ready-to-go setup with **internationalization**
 
 This project aims to provide a simple boilerplate for writing browser extensions for the most popular browsers, such as Chrome, Firefox, and Opera.
