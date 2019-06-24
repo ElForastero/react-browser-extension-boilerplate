@@ -1,12 +1,13 @@
 {
+  "version": "0.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ElForastero/preact-browser-extension-boilerplate"
   },
   "scripts": {
-    "build": "yarn webpack -c webpack.config.js",
-    "watch": "yarn webpack -c webpack.config.js -w"
+    "build": "NODE_ENV=production yarn webpack -c webpack.config.js --mode production",
+    "watch": "NODE_ENV=development yarn webpack -c webpack.config.js --mode development -w"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -27,7 +28,8 @@
     "prettier": "^1.17.1",
     "raw-loader": "^2.0.0",
     "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2"
+    "webpack-cli": "^3.3.2",
+    "webpack-extension-reloader": "^1.1.0"
   },
   "dependencies": {
     "classnames": "^2.2.6",

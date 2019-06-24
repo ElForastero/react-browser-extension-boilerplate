@@ -2,13 +2,14 @@ const HTMLPlugin = require('html-webpack-plugin');
 const MiniCSSPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
+const ExtensionReloader = require('webpack-extension-reloader');
 
 module.exports = {
   entry: {
     options: './src/options.js',
     popup: './src/popup.js',
     content: './src/content.js',
-    background: './src/background.js'
+    background: './src/background.js',
   },
   output: {
     filename: '[name].js',
@@ -70,6 +71,9 @@ module.exports = {
       { from: './src/assets', to: './assets' },
       { from: './src/manifest.json', to: './manifest.json' },
     ]),
+    new ExtensionReloader({
+      manifest: path.resolve(__dirname, "build/manifest.json"),
+    })
   ],
   optimization: {
     minimize: true,

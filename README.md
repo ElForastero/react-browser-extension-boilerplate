@@ -14,6 +14,9 @@ Content and styles which are injected directly to the page, are isolated inside 
 
 ![Example](screenshot.png)
 
+## Note on Content Security Policy (CSP)
+"unsafe-eval" in directive 'script-src' is needed for auto reloading, and should be removed from production manifest.json.
+
 #### Useful links
 
 - [Manifest File Format](https://developer.chrome.com/apps/manifest)

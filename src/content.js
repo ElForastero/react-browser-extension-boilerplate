@@ -7,7 +7,7 @@ const BackgroundApp = () => {
   const [css, updateCSS] = useState('');
 
   useEffect(() => {
-    const url = browser.extension.getURL('assets/css/background.css');
+    const url = browser.extension.getURL('assets/css/content.css');
     fetch(url)
       .then(response => response.text())
       .then(updateCSS);

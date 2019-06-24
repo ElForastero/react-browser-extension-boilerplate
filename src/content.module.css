@@ -13,4 +13,5 @@
   background-image: url('chrome-extension://__MSG_@@extension_id__/assets/img/icon-128x128.png');
   background-size: contain;
   background-position: center;
+  z-index: 9999999;
 }
