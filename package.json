@@ -1,5 +1,6 @@
 {
   "version": "0.0.2",
+  "name": "preact-browser-extension-boilerplate",
   "license": "MIT",
   "repository": {
     "type": "git",
