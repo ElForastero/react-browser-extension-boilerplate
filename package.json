@@ -7,8 +7,8 @@
     "url": "https://github.com/ElForastero/preact-browser-extension-boilerplate"
   },
   "scripts": {
-    "build": "NODE_ENV=production yarn webpack -c webpack.config.js --mode production",
-    "watch": "NODE_ENV=development yarn webpack -c webpack.config.js --mode development -w"
+    "build": "cross-env NODE_ENV=production yarn webpack -c webpack.config.js --mode production",
+    "watch": "cross-env NODE_ENV=development yarn webpack -c webpack.config.js --mode development -w"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
