@@ -37,7 +37,7 @@ Content and styles which are injected directly to the page, are isolated inside 
 ## Install
 
 ```sh
-git clone git@github.com:ElForastero/preact-browser-extension-boilerplate.git &lt;YOUR_PROJECT_NAME&gt;
+git clone git@github.com:ElForastero/preact-browser-extension-boilerplate.git <YOUR_PROJECT_NAME>
 ```
 
 ## Usage
