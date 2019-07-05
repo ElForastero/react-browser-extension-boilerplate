@@ -1,4 +1,4 @@
-<h1 align="center">🎉 React (Preact) Browser Extension Boilerplate</h1>
+<h1 align="center">React (Preact) Browser Extension Boilerplate</h1>
 <p>
   <img src="https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/ElForastero/preact-browser-extension-boilerplate#readme">
@@ -17,7 +17,7 @@
 
 > This project aims to provide a simple boilerplate for writing browser extensions for the most popular browsers, such as Chrome, Firefox, Opera, new Edge and other Chromium-based browsers.
 
-## Features
+## 🎉 Features
 
 - **Preact X** (or React if you prefer it)
 - **Shadow DOM** for injected content
@@ -26,7 +26,7 @@
 - **Auto reloading**
 - Ready-to-go setup with **internationalization**
 
-## Description
+## 📝 Description
 
 It's built with `preact` and `preact-compat` which allows you to switch between `react` and `preact`.
 
@@ -34,13 +34,13 @@ Content and styles which are injected directly to the page, are isolated inside 
 
 ![Example](screenshot.png)
 
-## Install
+## 🏁 Install
 
 ```sh
 git clone git@github.com:ElForastero/preact-browser-extension-boilerplate.git <YOUR_PROJECT_NAME>
 ```
 
-## Usage
+## 🚀 Usage
 
 ```sh
 yarn watch
@@ -54,10 +54,10 @@ yarn build
 
 Builds the extension in production mode.
 
-## Note on Content Security Policy (CSP)
+## ⚠️ Note on Content Security Policy (CSP)
 "unsafe-eval" in directive 'script-src' is needed for auto reloading, and should be removed from production manifest.json.
 
-## Useful links
+## 💻 Useful links
 
 - [Manifest File Format](https://developer.chrome.com/apps/manifest)
 - [Content Security Policy (CSP)](https://developer.chrome.com/extensions/contentSecurityPolicy)
@@ -66,14 +66,14 @@ Builds the extension in production mode.
 - [Firefox add-ons examples](https://github.com/mdn/webextensions-examples)
 - [exthouse - tool for performance testing](https://github.com/treosh/exthouse)
 
-## Author
+## 👨‍💻 Author
 
 👤 **Eugene Dzhumak**
 
 * Twitter: [@el4astero](https://twitter.com/el4astero)
 * Github: [@ElForastero](https://github.com/ElForastero)
 
-## Show your support
+## 🤝 Show your support
 
 Give a ⭐️ if this project helped you!
 
