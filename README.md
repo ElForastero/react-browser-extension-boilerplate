@@ -23,6 +23,7 @@
 - **Shadow DOM** for injected content
 - **CSS Modules**
 - **PostCSS** (preset-env and custom-properties)
+- **Auto reloading**
 - Ready-to-go setup with **internationalization**
 
 ## Description
@@ -63,6 +64,7 @@ Builds the extension in production mode.
 - [Chrome i18n](https://developer.chrome.com/extensions/i18n)
 - [Porting a Google Chrome extension to Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Porting_a_Google_Chrome_extension)
 - [Firefox add-ons examples](https://github.com/mdn/webextensions-examples)
+- [exthouse - tool for performance testing](https://github.com/treosh/exthouse)
 
 ## Author
 
