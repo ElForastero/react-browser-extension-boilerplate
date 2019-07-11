@@ -7,8 +7,8 @@
     "url": "https://github.com/ElForastero/preact-browser-extension-boilerplate"
   },
   "scripts": {
-    "build": "NODE_ENV=production yarn webpack -c webpack.config.js --mode production",
-    "watch": "NODE_ENV=development yarn webpack -c webpack.config.js --mode development -w"
+    "build": "cross-env NODE_ENV=production yarn webpack -c webpack.config.js --mode production",
+    "watch": "cross-env NODE_ENV=development yarn webpack -c webpack.config.js --mode development -w"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -19,6 +19,7 @@
     "babel-plugin-react-css-modules": "^5.2.6",
     "clean-webpack-plugin": "^2.0.2",
     "copy-webpack-plugin": "^5.0.3",
+    "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "^4.0.0-beta.5",
     "incstr": "^1.2.3",
