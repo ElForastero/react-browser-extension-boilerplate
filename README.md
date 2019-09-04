@@ -1,13 +1,13 @@
 <h1 align="center">React (Preact) Browser Extension Boilerplate</h1>
 <p>
   <img src="https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/ElForastero/preact-browser-extension-boilerplate#readme">
+  <a href="https://github.com/ElForastero/react-browser-extension-boilerplate#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
-  <a href="https://github.com/ElForastero/preact-browser-extension-boilerplate/graphs/commit-activity">
+  <a href="https://github.com/ElForastero/react-browser-extension-boilerplate/graphs/commit-activity">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
   </a>
-  <a href="https://github.com/ElForastero/preact-browser-extension-boilerplate/blob/master/LICENSE">
+  <a href="https://github.com/ElForastero/react-browser-extension-boilerplate/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
   <a href="https://twitter.com/el4astero">
@@ -19,7 +19,7 @@
 
 ## 🎉 Features
 
-- **Preact X** (or React if you prefer it)
+- **Preact X or React** (by default Preact - lightweight React alternative)
 - **Shadow DOM** for injected content
 - **CSS Modules**
 - **PostCSS** (preset-env and custom-properties)
@@ -37,7 +37,7 @@ Content and styles which are injected directly to the page, are isolated inside 
 ## 🏁 Install
 
 ```sh
-git clone git@github.com:ElForastero/preact-browser-extension-boilerplate.git <YOUR_PROJECT_NAME>
+git clone git@github.com:ElForastero/react-browser-extension-boilerplate.git <YOUR_PROJECT_NAME>
 ```
 
 ## 🚀 Usage
@@ -80,7 +80,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2019 [Eugene Dzhumak](https://github.com/ElForastero).<br />
-This project is [MIT](https://github.com/ElForastero/preact-browser-extension-boilerplate/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/ElForastero/react-browser-extension-boilerplate/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
