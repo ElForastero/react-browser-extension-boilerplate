@@ -41,9 +41,10 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              modules: true,
-              camelCase: true,
-              localIdentName: '[hash:base64]',
+              modules: {
+                localIdentName: '[hash:base64]'
+              },
+              localsConvention: 'camelCase',
               importLoaders: 1,
               sourceMap: false,
             },
@@ -71,9 +72,7 @@ module.exports = {
       { from: './src/assets', to: './assets' },
       { from: './src/manifest.json', to: './manifest.json' },
     ]),
-    new ExtensionReloader({
-      manifest: path.resolve(__dirname, "build/manifest.json"),
-    })
+    new ExtensionReloader()
   ],
   optimization: {
     minimize: true,
