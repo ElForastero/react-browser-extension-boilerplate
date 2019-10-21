@@ -66,6 +66,7 @@ Builds the extension in production mode.
 - [Firefox add-ons examples](https://github.com/mdn/webextensions-examples)
 - [exthouse - tool for performance testing](https://github.com/treosh/exthouse)
 - [webext-redux - a set o utilities to use redux in web extensions](https://github.com/tshaddix/webext-redux)
+- [webpack-manifest-version-sync-plugin](https://github.com/ElForastero/webpack-manifest-version-sync-plugin)
 
 ## 👨‍💻 Author
 
