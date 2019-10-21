@@ -65,6 +65,7 @@ Builds the extension in production mode.
 - [Porting a Google Chrome extension to Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Porting_a_Google_Chrome_extension)
 - [Firefox add-ons examples](https://github.com/mdn/webextensions-examples)
 - [exthouse - tool for performance testing](https://github.com/treosh/exthouse)
+- [webext-redux - a set o utilities to use redux in web extensions](https://github.com/tshaddix/webext-redux)
 
 ## 👨‍💻 Author
 
