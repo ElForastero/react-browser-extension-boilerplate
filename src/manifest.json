@@ -18,8 +18,7 @@
     {
       "all_frames": false,
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["content.js"],
-      "css": ["assets/css/palette.css"]
+      "js": ["content.js"]
     }
   ],
   "icons": {
@@ -28,6 +27,6 @@
     "128": "assets/img/icon-128x128.png"
   },
   "permissions": ["storage"],
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'; connect-src ws://localhost:*/",
   "web_accessible_resources": ["assets/img/*", "assets/css/*"]
 }

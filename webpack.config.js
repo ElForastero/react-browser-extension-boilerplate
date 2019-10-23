@@ -1,8 +1,8 @@
 const HTMLPlugin = require('html-webpack-plugin');
-const MiniCSSPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
 const ExtensionReloader = require('webpack-extension-reloader');
+const ManifestVersionSyncPlugin = require('webpack-manifest-version-sync-plugin');
 
 module.exports = {
   entry: {
@@ -35,22 +35,8 @@ module.exports = {
         ],
       },
       {
-        test: /\.css$/,
-        use: [
-          { loader: MiniCSSPlugin.loader },
-          {
-            loader: 'css-loader',
-            options: {
-              modules: {
-                localIdentName: '[hash:base64]'
-              },
-              localsConvention: 'camelCase',
-              importLoaders: 1,
-              sourceMap: false,
-            },
-          },
-          'postcss-loader',
-        ],
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
       },
     ],
   },
@@ -64,15 +50,15 @@ module.exports = {
       chunks: ['popup'],
       filename: 'popup.html',
     }),
-    new MiniCSSPlugin({
-      filename: 'assets/css/[name].css',
-    }),
     new CopyPlugin([
       { from: './src/_locales/', to: './_locales' },
       { from: './src/assets', to: './assets' },
       { from: './src/manifest.json', to: './manifest.json' },
     ]),
-    new ExtensionReloader()
+    new ExtensionReloader({
+      manifest: path.resolve(__dirname, './src/manifest.json'),
+    }),
+    new ManifestVersionSyncPlugin(),
   ],
   optimization: {
     minimize: true,

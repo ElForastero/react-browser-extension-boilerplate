@@ -1,44 +1,47 @@
 {
-  "version": "0.0.2",
-  "name": "preact-browser-extension-boilerplate",
-  "license": "MIT",
+  "version": "1.0.0",
+  "name": "react-browser-extension-boilerplate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ElForastero/preact-browser-extension-boilerplate"
+    "url": "https://github.com/ElForastero/react-browser-extension-boilerplate"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production yarn webpack -c webpack.config.js --mode production",
     "watch": "cross-env NODE_ENV=development yarn webpack -c webpack.config.js --mode development -w"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
+    "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@svgr/webpack": "^4.3.3",
     "babel-loader": "^8.0.6",
     "babel-plugin-react-css-modules": "^5.2.6",
+    "babel-plugin-styled-components": "^1.10.6",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.0.4",
-    "cross-env": "^5.2.1",
-    "css-loader": "^3.2.0",
-    "html-webpack-plugin": "^4.0.0-beta.5",
-    "incstr": "^1.2.3",
-    "mini-css-extract-plugin": "^0.8.0",
-    "postcss-custom-properties": "^9.0.2",
-    "postcss-loader": "^3.0.0",
-    "postcss-preset-env": "^6.7.0",
+    "cross-env": "^6.0.3",
+    "html-webpack-plugin": "^4.0.0-beta.8",
     "prettier": "^1.18.2",
     "raw-loader": "^3.1.0",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8",
-    "webpack-extension-reloader": "^1.1.0"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-extension-reloader": "^1.1.1",
+    "webpack-manifest-version-sync-plugin": "^0.0.2"
   },
   "dependencies": {
+    "@styled-system/prop-types": "^5.1.2",
     "classnames": "^2.2.6",
-    "core-js": "^3.2.1",
-    "preact": "^10.0.0-beta.2",
+    "core-js": "^3.3.3",
+    "lodash.omit": "^4.5.0",
+    "preact": "^10.0.1",
     "preact-shadow-root": "^1.0.2",
+    "prop-types": "^15.7.2",
+    "react-switch": "^5.0.1",
     "regenerator-runtime": "^0.13.3",
-    "webextension-polyfill": "^0.4.0"
+    "styled-components": "^4.4.0",
+    "styled-system": "^5.1.2",
+    "use-click-outside": "^1.1.0",
+    "webextension-polyfill": "^0.5.0"
   }
 }

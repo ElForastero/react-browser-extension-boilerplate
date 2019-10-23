@@ -1,6 +1,6 @@
-<h1 align="center">React (Preact) Browser Extension Boilerplate</h1>
+<h1 align="center">React Web Extension Boilerplate</h1>
 <p>
-  <img src="https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/ElForastero/react-browser-extension-boilerplate#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
@@ -10,29 +10,29 @@
   <a href="https://github.com/ElForastero/react-browser-extension-boilerplate/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
   </a>
-  <a href="https://twitter.com/el4astero">
-    <img alt="Twitter: el4astero" src="https://img.shields.io/twitter/follow/el4astero.svg?style=social" target="_blank" />
-  </a>
 </p>
 
 > This project aims to provide a simple boilerplate for writing browser extensions for the most popular browsers, such as Chrome, Firefox, Opera, new Edge and other Chromium-based browsers.
 
+![React Web Extension Boilerplate](logo.png)
+
 ## 🎉 Features
 
-- **Preact X or React** (by default Preact - lightweight React alternative)
+- **Preact X or React** (you can switch them easily in webpack config)
 - **Shadow DOM** for injected content
-- **CSS Modules**
-- **PostCSS** (preset-env and custom-properties)
-- **Auto reloading**
+- **Styled-Components**
+- **Auto reloading** (there's no need to manually reload extension)
 - Ready-to-go setup with **internationalization**
+
+## 👨‍💻 Examples
+
+You can look at [Framer](https://github.com/ElForastero/framer) todo list extension as an example of using this boilerplate. There's no straight instructions on how to use it, or any limitations on tools and technologies. Think of it as a regular react application with some special preperties.
 
 ## 📝 Description
 
 It's built with `preact` and `preact-compat` which allows you to switch between `react` and `preact`.
 
-Content and styles which are injected directly to the page, are isolated inside Shadow DOM. CSS modules are used to avoid class names collision.
-
-![Example](screenshot.png)
+Content and styles which are injected directly to the page, are isolated inside Shadow DOM.
 
 ## 🏁 Install
 
@@ -46,16 +46,28 @@ git clone git@github.com:ElForastero/react-browser-extension-boilerplate.git <YO
 yarn watch
 ```
 
-Runs webpack in watch mode. Automatically reloads the page after changes in files.
+Runs webpack in watch mode. Automatically reloads the page after changes in files. Thanks to [webpack-extension-reloader](https://github.com/rubenspgcavalcante/webpack-extension-reloader).
 
 ```sh
 yarn build
 ```
 
-Builds the extension in production mode.
+Builds the extension in production mode. This version can be shipped to the store.
 
-## ⚠️ Note on Content Security Policy (CSP)
-"unsafe-eval" in directive 'script-src' is needed for auto reloading, and should be removed from production manifest.json.
+## How to increment version
+
+Use [npm version](https://docs.npmjs.com/cli/version) cli command to bump a version of your package.json. The version of manifest will stay in sync with version specified in package.json.
+
+For example:
+
+```sh
+npm version patch
+```
+
+This would increase you patch package.json version. During the next build output manifest file will have the same version.
+
+## ⚠️ Content Security Policy (CSP)
+"unsafe-eval" in directive "script-src" and "connect-src" are needed for auto reloading, and should be removed from production manifest.json.
 
 ## 💻 Useful links
 
@@ -67,13 +79,6 @@ Builds the extension in production mode.
 - [exthouse - tool for performance testing](https://github.com/treosh/exthouse)
 - [webext-redux - a set o utilities to use redux in web extensions](https://github.com/tshaddix/webext-redux)
 - [webpack-manifest-version-sync-plugin](https://github.com/ElForastero/webpack-manifest-version-sync-plugin)
-
-## 👨‍💻 Author
-
-👤 **Eugene Dzhumak**
-
-* Twitter: [@el4astero](https://twitter.com/el4astero)
-* Github: [@ElForastero](https://github.com/ElForastero)
 
 ## 🤝 Show your support
 

@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './options.module.css';
+import { ThemeProvider } from 'styled-components';
 import Example from 'components/Example';
+import defaultTheme from 'themes/default';
 
-const OptionsPage = () => (
-  <div styleName="container">
-    <Example />
-  </div>
-);
+const OptionsPage = () => {
+  return (
+    <ThemeProvider theme={defaultTheme}>
+      <Example />
+    </ThemeProvider>
+  );
+};
 
 const root = document.createElement('div');
 document.body.appendChild(root);
