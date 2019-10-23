@@ -3,11 +3,11 @@
     "message": "Привет, Мир!"
   },
   "appName": {
-    "message": "Бойлерплейт для расширения",
+    "message": "React Web Extension Boilerplate",
     "description": "Название расширения для магазина расширений."
   },
   "appShortName": {
-    "message": "Ext",
+    "message": "RWEB",
     "description": "Короткая (рекомендовано максимум 12 символов) версия названия расширения."
   },
   "appDesc": {

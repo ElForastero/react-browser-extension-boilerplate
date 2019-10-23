@@ -1,27 +1,36 @@
-import React, { useEffect, useState } from 'react';
+import 'libs/polyfills';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import './content.module.css';
-import browser from 'webextension-polyfill';
+import { ThemeProvider, StyleSheetManager } from 'styled-components';
+import Box from 'components/Box';
+import Example from 'components/Example';
+import defaultTheme from 'themes/default';
 
-const BackgroundApp = () => {
-  const [css, updateCSS] = useState('');
+const root = document.createElement('div');
+const shadow = root.attachShadow({ mode: 'open' });
 
-  useEffect(() => {
-    const url = browser.extension.getURL('assets/css/content.css');
-    fetch(url)
-      .then(response => response.text())
-      .then(updateCSS);
-  }, []);
+const styleContainer = document.createElement('div');
+const appContainer = document.createElement('div');
 
+shadow.appendChild(styleContainer);
+shadow.appendChild(appContainer);
+
+document.body.appendChild(root);
+
+const App = () => {
   return (
-    <div styleName="container">
-      <style>{css}</style>
-    </div>
+    <StyleSheetManager target={styleContainer}>
+      <ThemeProvider theme={defaultTheme}>
+        <Box
+          position="fixed"
+          bottom={3}
+          right={3}
+        >
+          <Example />
+        </Box>
+      </ThemeProvider>
+    </StyleSheetManager>
   );
 };
 
-const root = document.createElement('div');
-document.body.appendChild(root);
-const shadow = root.attachShadow({ mode: 'open' });
-
-ReactDOM.render(<BackgroundApp />, shadow);
+ReactDOM.render(<App />, appContainer);

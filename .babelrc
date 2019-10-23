@@ -2,9 +2,9 @@
   "presets": ["@babel/preset-env", "@babel/preset-react"],
   "plugins": [
     [
-      "babel-plugin-react-css-modules",
+      "babel-plugin-styled-components",
       {
-        "generateScopedName": "[hash:base64]"
+        "displayName": false
       }
     ],
     "@babel/plugin-proposal-class-properties"
