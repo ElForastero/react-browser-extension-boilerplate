@@ -64,7 +64,7 @@ For example:
 npm version patch
 ```
 
-This would increase you patch package.json version. During the next build output manifest file will have the same version.
+This will increase your patch package.json version. During the next build output manifest file will have the same version.
 
 ## ⚠️ Content Security Policy (CSP)
 "unsafe-eval" in directive "script-src" and "connect-src" are needed for auto reloading, and should be removed from production manifest.json.
