@@ -26,7 +26,7 @@
 
 ## 👨‍💻 Examples
 
-You can look at [Framer](https://github.com/ElForastero/framer) todo list extension as an example of using this boilerplate. There's no straight instructions on how to use it, or any limitations on tools and technologies. Think of it as a regular react application with some special preperties.
+You can look at [Framer](https://github.com/ElForastero/framer) todo list extension as an example of using this boilerplate. There are no straight restrictions on how to use it, or any limitations on tools and technologies. Think of it as a regular react application with some special properties.
 
 ## 📝 Description
 
