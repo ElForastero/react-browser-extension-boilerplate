@@ -1174,9 +1174,9 @@ abbrev@1:
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
 acorn@^6.2.1:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
-  integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -5089,10 +5089,10 @@ webpack-log@^2.0.0:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
 
-webpack-manifest-version-sync-plugin@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/webpack-manifest-version-sync-plugin/-/webpack-manifest-version-sync-plugin-0.0.2.tgz#8db343e442eff91a67121e500ae97f3eeb3af655"
-  integrity sha512-0Dj/PyTlfkR0kGjLojmq4oOwSZWchrs6B9iV6EM6Trwip+b9usHbB7BkMD7sfjGfJcKSIN2EOSZ2EWUcYpTDWw==
+webpack-manifest-version-sync-plugin@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/webpack-manifest-version-sync-plugin/-/webpack-manifest-version-sync-plugin-0.0.3.tgz#4db9f0b47ae1a048283c1e670ae5493cc4d2634d"
+  integrity sha512-6eh2YIa5D4i+M/PZ/9pqiqEACzs33iGrx+794A/F1+Syms6LOLnNONQqu+EBsDohQC/y18UXlFbWe6pca/mcCg==
 
 webpack-sources@^1.0.1, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
   version "1.4.3"
