@@ -30,6 +30,7 @@ You can look at:
 
 - [Framer](https://github.com/ElForastero/framer): a todo list extension as an example of using this boilerplate.
 - [Good Block](https://github.com/LucasAndrad/block-sites-react-extension): an extension to block websites, also using this boilerplate.
+- [ScreenplaySubs](https://github.com/SMASH-CUT/extension): an extension to watch movies in Netflix with screenplays, in sync. Also using this boilerplate.
 
 There are no straight restrictions on how to use it, or any limitations on tools and technologies. Think of it as a regular react application with some special properties.
 
