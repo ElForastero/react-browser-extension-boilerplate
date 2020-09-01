@@ -3235,9 +3235,9 @@ lodash.omit@^4.5.0:
   integrity sha1-brGa5aHuHdnfC5aeZs4Lf6MLXmA=
 
 lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loose-envify@^1.0.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -5089,10 +5089,10 @@ webpack-log@^2.0.0:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
 
-webpack-manifest-version-sync-plugin@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/webpack-manifest-version-sync-plugin/-/webpack-manifest-version-sync-plugin-0.0.2.tgz#8db343e442eff91a67121e500ae97f3eeb3af655"
-  integrity sha512-0Dj/PyTlfkR0kGjLojmq4oOwSZWchrs6B9iV6EM6Trwip+b9usHbB7BkMD7sfjGfJcKSIN2EOSZ2EWUcYpTDWw==
+webpack-manifest-version-sync-plugin@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/webpack-manifest-version-sync-plugin/-/webpack-manifest-version-sync-plugin-0.0.3.tgz#4db9f0b47ae1a048283c1e670ae5493cc4d2634d"
+  integrity sha512-6eh2YIa5D4i+M/PZ/9pqiqEACzs33iGrx+794A/F1+Syms6LOLnNONQqu+EBsDohQC/y18UXlFbWe6pca/mcCg==
 
 webpack-sources@^1.0.1, webpack-sources@^1.4.0, webpack-sources@^1.4.1:
   version "1.4.3"
